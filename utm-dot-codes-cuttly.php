@@ -28,7 +28,7 @@ namespace UtmDotCodesCuttly {
   }
   include_once 'classes/class-CheckUtmDotCodesActivated.php';
   $var = new check_utm_dot_codes_installed();
-
+}
  namespace UtmDotCodes { 
   define( 'UTMDC_CUTTLY_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
   define( 'UTMDC_CUTTLY_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
